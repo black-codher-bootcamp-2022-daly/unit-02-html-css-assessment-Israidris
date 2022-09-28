@@ -1,0 +1,28 @@
+.name {
+   display: flex;
+   flex-direction: column;
+}
+
+
+.info { 
+    display: flex;
+    flex-direction: column;
+ }
+
+
+.projects {
+    display: flex;
+    flex-direction: column;
+}
+
+
+
+
+
+
+
+<!--
+.footer {
+   
+}
+--> 
