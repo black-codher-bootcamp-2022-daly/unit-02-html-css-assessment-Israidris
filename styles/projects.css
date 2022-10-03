@@ -28,30 +28,14 @@ body {
 }
 
 .navigation {
-    font-size: larger;
-    /* display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    align-items: left; */
-} 
-
-.footer {
-    font-size: xx-large;
-    /*width: 400px;
-    height: 400px;
-    background-color: bisque;
-    animation-name: move; 
-    animation-duration: 50s;
-    animation-iteration-count: infinite;
+font-size: larger;
 }
 
-@keyframes move {
-    0% {
-        top: 0%;
-        left: 0%;
-    }
-    100% {
-        top: 50%;
-        left: 100%;
-    }
-} */
+.projects {
+    font-size: large;
+    display: flex;
+    flex-direction: column;
+}
+
+
+
