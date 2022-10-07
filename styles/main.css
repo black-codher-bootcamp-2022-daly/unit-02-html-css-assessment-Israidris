@@ -11,7 +11,7 @@ body {
     }
     body {
         font-size: "14px";
-        background-color: bisque;
+        background-color: white;
         color: #FFF 
     }
 }
@@ -22,26 +22,103 @@ body {
     }
     body {
         font-size: "26px";
-        background-color: bisque;
+        background-color: white;
         color: #000
     }
+}
+
+ul {
+    list-style-type: none;
+    margin: 0; 
+    padding: 0;
+    width: 90px;
+    background-color: white;
+}
+    
+a {
+    display: block;
+    color: black;
+    margin: 0-.25rem;
+    padding: 0 .25rem;
+    text-decoration: none;
+    box-shadow: inset 0 0 0 0 #800080;
+    transition: color .3s ease-in-out, box-shadow .3s ease-in-out;
+}
+    
+a:hover {
+    background-color: white;
+    color: black;
+    font-weight: bolder;
+    box-shadow: inset 100px 0 0 0 #54b3d6
 }
 
 .navigation {
     font-size: larger;
 } 
 
+h1 {
+    font-size: xx-large;
+}
+
+
+p {
+    font-size: x-large;
+    text-align: center;
+    margin-top: 200px;
+}
+
+p:last-child {
+    margin-bottom: 300px;
+}
+
+li:last-child {
+    margin-bottom: 350px;
+}
+
 .profile-img {
     float: left;
 }
 
+h2 {
+    font-size: xx-large;
+    text-align: center;
+    margin-bottom: 100px;
+}
+
+.projects {
+    display: inline;
+    list-style-type: circle;
+    font-size: larger;
+    text-align: center;
+    list-style-position: inside;
+}
+
+h4 {
+    font-size: xx-large;
+}
+
+.social-media {
+    display: flex;
+    font-size:larger;
+    float: center;
+    margin-top: 170px;
+    margin-left: 100px;
+}
+
+.wrapper {
+    display: flex;
+    margin-bottom: -100px;
+}
+
+
 .fa {
-    padding: 20px;
+    padding: 30px;
     font-size: 30px;
-    width: 30px;
+    width: 40px;
+    height: 27px;
     text-align: center;
     text-decoration: none;
-    margin: 5px 2px;
+    margin: 5px 20px;
     border-radius: 50%;
 }
 
@@ -69,28 +146,5 @@ body {
     color: white;
 }
 
-.footer {
-    font-size: larger;
-}
 
-.container {
-    display: flex;
-    align-items: center;
-    justify-content: left;
-}
 
-#img {
-    width: 400;
-    height: 200;
-    float: left;
-}
-
-.image {
-    flex-basis: 100%
-}
-  
-.list {
-    float:right;
-    font-size: 20px;
-    padding-left: 20px;
-}
