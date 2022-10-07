@@ -31,10 +31,6 @@ body {
     font-size: larger;
 } 
 
-.about-me {
-
-}
-
 .profile-img {
     float: left;
 }
@@ -79,20 +75,22 @@ body {
 
 .container {
     display: flex;
-    align-items: space-between;
-    justify-content:space-between;
-  }
+    align-items: center;
+    justify-content: left;
+}
 
-  #img {
-    width: 200;
-    height: 300;
+#img {
+    width: 400;
+    height: 200;
     float: left;
+}
 
-  }
-  .image {
-    flex-basis: 40%
-  }
-  .list {
-    font-size: 15px;
-    padding-left: 15px;
-  }
+.image {
+    flex-basis: 100%
+}
+  
+.list {
+    float:right;
+    font-size: 20px;
+    padding-left: 20px;
+}
