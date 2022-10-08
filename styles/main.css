@@ -33,6 +33,7 @@ ul {
     padding: 0;
     width: 90px;
     background-color: white;
+    overflow: hidden;
 }
     
 a {
@@ -54,6 +55,8 @@ a:hover {
 
 .navigation {
     font-size: larger;
+    display: block;
+    float: center;
 } 
 
 h1 {
@@ -93,8 +96,9 @@ h2 {
     list-style-position: inside;
 }
 
-h4 {
+footer {
     font-size: xx-large;
+    font-weight: bold;
 }
 
 .social-media {
