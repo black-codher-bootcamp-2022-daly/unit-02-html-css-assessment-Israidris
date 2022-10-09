@@ -1,0 +1,151 @@
+@import url('https://fonts.googleapis.com/css2?family=Urbanist:wght@100&display=swap');
+
+body {
+    font-family:"Urbanist", sans-serif;
+    background-color: white;
+}
+
+@media (min-width: 320px) and (max-width: 480px) {
+    h1 {
+        font-size: "20px";
+    }
+    body {
+        font-size: "14px";
+        background-color: white;
+        color: #FFF 
+    }
+}
+
+@media (min-width: 481px) and (max-width: 1025px) {
+    h1 {
+        font-size: "50px";
+    }
+    body {
+        font-size: "26px";
+        background-color: white;
+        color: #000
+    }
+}
+
+.navigation {
+    font-size: larger;
+} 
+
+ul {
+    list-style-type: none;
+    margin: 0; 
+    padding: 0;
+    width: 90px;
+    background-color: white;
+}
+    
+a {
+    display: block;
+    color: black;
+    margin: 0-.25rem;
+    padding: 0 .25rem;
+    text-decoration: none;
+    box-shadow: inset 0 0 0 0 #800080;
+    transition: color .3s ease-in-out, box-shadow .3s ease-in-out;
+}
+    
+a:hover {
+    background-color: white;
+    color: black;
+    font-weight: bolder;
+    box-shadow: inset 100px 0 0 0 #54b3d6
+}
+
+h1 {
+    font-size: xx-large;
+}
+
+
+p {
+    font-size: x-large;
+    text-align: center;
+    margin-top: 200px;
+}
+
+p:last-child {
+    margin-bottom: 300px;
+}
+
+li:last-child {
+    margin-bottom: 350px;
+}
+
+.profile-img {
+    float: left;
+}
+
+h2 {
+    font-size: xx-large;
+    text-align: center;
+    margin-bottom: 100px;
+}
+
+.projects {
+    display: inline;
+    list-style-type: circle;
+    font-size: larger;
+    text-align: center;
+    list-style-position: inside;
+}
+
+footer {
+    font-size: xx-large;
+    font-weight: bold;
+}
+
+.social-media {
+    display: flex;
+    font-size:larger;
+    float: center;
+    margin-top: 170px;
+    margin-left: 100px;
+}
+
+.wrapper {
+    display: flex;
+    margin-bottom: -100px;
+}
+
+
+.fa {
+    padding: 30px;
+    font-size: 30px;
+    width: 40px;
+    height: 27px;
+    text-align: center;
+    text-decoration: none;
+    margin: 5px 20px;
+    border-radius: 50%;
+}
+
+.fa:hover {
+    opacity: 0.7; 
+}
+
+.fa-linkedin {
+    background: #007bb5;
+    color: white;
+}
+
+.fa-github {
+    background: black;
+    color: white;
+}
+
+.fa-twitter {
+    background: #55ACEE;
+    color: white;
+}
+
+.fa-instagram {
+    background: radial-gradient(circle farthest-corner at 35% 90%, #fec564, transparent 50%), radial-gradient(circle farthest-corner at 0 140%, #fec564, transparent 50%), radial-gradient(ellipse farthest-corner at 0 -25%, #5258cf, transparent 50%), radial-gradient(ellipse farthest-corner at 20% -50%, #5258cf, transparent 50%), radial-gradient(ellipse farthest-corner at 100% 0, #893dc2, transparent 50%), radial-gradient(ellipse farthest-corner at 60% -20%, #893dc2, transparent 50%), radial-gradient(ellipse farthest-corner at 100% 100%, #d9317a, transparent), linear-gradient(#6559ca, #bc318f 30%, #e33f5f 50%, #f77638 70%, #fec66d 100%);
+    color: white;
+}
+
+
+
