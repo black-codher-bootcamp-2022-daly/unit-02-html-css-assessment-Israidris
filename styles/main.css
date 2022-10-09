@@ -27,13 +27,16 @@ body {
     }
 }
 
+.navigation {
+    font-size: larger;
+} 
+
 ul {
     list-style-type: none;
     margin: 0; 
     padding: 0;
     width: 90px;
     background-color: white;
-    overflow: hidden;
 }
     
 a {
@@ -52,12 +55,6 @@ a:hover {
     font-weight: bolder;
     box-shadow: inset 100px 0 0 0 #54b3d6
 }
-
-.navigation {
-    font-size: larger;
-    display: block;
-    float: center;
-} 
 
 h1 {
     font-size: xx-large;
